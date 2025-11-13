@@ -4,7 +4,70 @@
     <meta charset="UTF-8">
     <title>PHPexercise</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
+    
+</head>
+<body>
+
+<div class="container">
+    <h1 style="color: black;">WELCOME SA PAGE NA ITO</h1>
+    <p style="color: black;">PHP EXERCISE</p>
+
+    <div class="grid">
+        <div class="card">
+            <div>👨🏼‍💻</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/intro.php" target="_blank">Introduce Yourself</a>
+        </div>
+        <div class="card">
+            <div>🔢</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/SM.php" target="_blank">Simple Math</a>
+        </div>
+        <div class="card">
+            <div>📐</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/ARP.php" target="_blank">Area and Perimeter of a Rectangle</a>
+        </div>
+        <div class="card">
+            <div>🌡️</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/TC.php" target="_blank">Temperature Converter</a>
+        </div>
+        <div class="card">
+            <div>🔁</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/SV.php" target="_blank">Swapping Variables</a>
+        </div>
+        <div class="card">
+            <div>💵</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/SC.php" target="_blank">Salary Calculator</a>
+        </div>
+        <div class="card">
+            <div>🚹</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/bmi.php" target="_blank">BMI Calculator</a>
+        </div>
+        <div class="card">
+            <div>𓍯</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/STM.php" target="_blank">String Manipulation</a>
+        </div>
+        <div class="card">
+            <div>🏦</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/BAS.php" target="_blank">Bank Account Simulation</a>
+        </div>
+        <div class="card">
+            <div>💯</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/SGS.php" target="_blank">Simple Grading System</a>
+        </div>
+        <div class="card">
+            <div>₱</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/CUV.php" target="_blank">Currency Converter</a>
+        </div>
+        <div class="card">
+            <div>✈️</div>
+            <a href="http://localhost/231169794-CIT17_Hernandez/TCE.php" target="_blank">Travel Cost Estimator</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <?php echo date("Y"); ?> Jvvvvv.
+    </footer>
+</div>
+<style>
     :root {
       --primary: #4f46e5;
       --background: #f9fafb;
@@ -146,68 +209,5 @@
             color: #9ca3af;
         }
     </style>
-</head>
-<body>
-
-<div class="container">
-    <h1 style="color: black;">WELCOME SA PAGE NA ITO</h1>
-    <p style="color: black;">PHP EXERCISE</p>
-
-    <div class="grid">
-        <div class="card">
-            <div>👨🏼‍💻</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/intro.php" target="_blank">Introduce Yourself</a>
-        </div>
-        <div class="card">
-            <div>🔢</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/SM.php" target="_blank">Simple Matht</a>
-        </div>
-        <div class="card">
-            <div>📐</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/ARP.php" target="_blank">Area and Perimeter of a Rectangle</a>
-        </div>
-        <div class="card">
-            <div>🌡️</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/TC.php" target="_blank">Temperature Converter</a>
-        </div>
-        <div class="card">
-            <div>🔁</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/SV.php" target="_blank">Swapping Variables</a>
-        </div>
-        <div class="card">
-            <div>💵</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/SC.php" target="_blank">Salary Calculator</a>
-        </div>
-        <div class="card">
-            <div>🚹</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/bmi.php" target="_blank">BMI Calculator</a>
-        </div>
-        <div class="card">
-            <div>𓍯</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/STM.php" target="_blank">String Manipulation</a>
-        </div>
-        <div class="card">
-            <div>🏦</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/BAS.php" target="_blank">Bank Account Simulation</a>
-        </div>
-        <div class="card">
-            <div>💯</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/SDS.php" target="_blank">Simple Grading System</a>
-        </div>
-        <div class="card">
-            <div>₱</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/CUV.php" target="_blank">Currency Converter</a>
-        </div>
-        <div class="card">
-            <div>✈️</div>
-            <a href="http://localhost/231169794-CIT17_Hernandez/TCE.php" target="_blank">Travel Cost Estimator</a>
-        </div>
-    </div>
-
-    <footer>
-        &copy; <?php echo date("Y"); ?> Jvvvvv.
-    </footer>
-</div>
-
 </body>
 </html>
