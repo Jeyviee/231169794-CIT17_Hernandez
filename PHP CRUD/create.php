@@ -2,15 +2,14 @@
 include 'database.php';
 
 if (isset($_POST['save'])) {
-    // Sanitize inputs to prevent SQL injection
     $name = $conn->real_escape_string($_POST['name']);
     $email = $conn->real_escape_string($_POST['email']);
     $phone = $conn->real_escape_string($_POST['phone']);
 
-    // Insert into database
+
     $query = "INSERT INTO users (name, email, phone) VALUES ('$name', '$email', '$phone')";
     if ($conn->query($query)) {
-        header('Location: cindex.php'); // Redirect to your index
+        header('Location: cindex.php');
         exit;
     } else {
         echo "Error: " . $conn->error;

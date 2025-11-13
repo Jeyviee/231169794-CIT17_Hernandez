@@ -1,5 +1,5 @@
 <?php
-include 'database.php'; // Database connection
+include 'database.php';
 
 if (!isset($_GET['id'])) {
     header('Location: cindex.php');
