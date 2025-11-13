@@ -11,7 +11,7 @@ include 'db.php';
 </head>
 <body>
 <div class="container">
-    <h2>UC Peeps</h2>
+    <h2>UC Peepss</h2>
     <a href="add.php" class="add-btn">➕ Add New User</a>
 
     <table>
